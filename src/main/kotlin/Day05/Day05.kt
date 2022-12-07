@@ -1,4 +1,4 @@
-package day05
+package Day05
 
 import java.util.regex.Pattern
 
@@ -81,7 +81,7 @@ fun main(args: Array<String>) {
     part2()
 }
 
-val stackText = """
+val stackText: String = """
     [S] [C]         [Z]
 [F] [J] [P]         [T]     [N]
 [G] [H] [G] [Q]     [G]     [D]
@@ -92,7 +92,7 @@ val stackText = """
 [D] [T] [V] [M] [J] [N] [F] [M] [G]
 """.trimIndent()
 
-val movesText = """
+val movesText: String = """
 move 3 from 4 to 6
 move 1 from 5 to 8
 move 3 from 7 to 3
