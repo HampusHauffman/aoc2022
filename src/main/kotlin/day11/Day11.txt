@@ -1,0 +1,57 @@
+
+m.add(M(
+ items=mutableListOf(54, 61, 97, 63, 74),
+ op={ it * 7},
+test={ it%17==0},
+tTrue= 5,
+tFalse= 3,
+))
+
+m.add(M(
+ items=mutableListOf(61, 70, 97, 64, 99, 83, 52, 87),
+ op={ it + 8},
+test={ it%2==0},
+tTrue= 7,
+tFalse= 6,
+))
+
+m.add(M(
+ items=mutableListOf(60, 67, 80, 65),
+ op={ it * 13},
+test={ it%5==0},
+tTrue= 1,
+tFalse= 6,
+))
+
+m.add(M(
+ items=mutableListOf(61, 70, 76, 69, 82, 56),
+ op={ it + 7},
+test={ it%3==0},
+tTrue= 5,
+tFalse= 2,
+))
+
+m.add(M(
+ items=mutableListOf(79, 98),
+ op={ it + 2},
+test={ it%7==0},
+tTrue= 0,
+tFalse= 3,
+))
+
+m.add(M(
+ items=mutableListOf(72, 79, 55),
+ op={ it + 1},
+test={ it%13==0},
+tTrue= 2,
+tFalse= 1,
+))
+
+m.add(M(
+ items=mutableListOf(63),
+ op={ it + 4},
+test={ it%19==0},
+tTrue= 7,
+tFalse= 4,
+))
+
